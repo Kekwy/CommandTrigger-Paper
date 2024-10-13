@@ -1,0 +1,9 @@
+name: CommandTrigger
+version: '1.0-SNAPSHOT'
+main: com.kekwy.nmo.cmdtgr.Main
+api-version: '1.20'
+
+commands:
+  cmdtgr:
+    description: 使指定玩家的客户端主动向服务器请求执行目标指令。若使用代理服务端，可以实现由子服务器触发，将指令请求发向代理端。需要玩家客户端安装 CommandTrigger mod。
+    usage: /cmdtgr <playerName> [arg2]
