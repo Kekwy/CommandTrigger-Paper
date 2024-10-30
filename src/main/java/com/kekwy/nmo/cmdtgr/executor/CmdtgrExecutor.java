@@ -26,7 +26,7 @@ public class CmdtgrExecutor implements CommandExecutor {
 
     @Override
     public boolean onCommand(@NotNull CommandSender sender, Command command, @NotNull String label, String[] args) {
-        /* 过滤其他指令 */
+        // 过滤其他指令
         if (!command.getName().equalsIgnoreCase("cmdtgr")) {
             return false;
         }
